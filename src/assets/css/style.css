@@ -1,0 +1,164 @@
+/* Pour les titres */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Pour les contenus*/
+@font-face {
+    src: url("../polices/raleway/Raleway-Regular.woff") format("woff"), url("../polices/raleway/Raleway-Regular.ttf") format("truetype");
+    font-family: "Raleway";
+  }
+
+*{
+    font-family: raleway;
+}
+
+#global{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+header H2{
+    color: white;
+    background-color: #2c1d27;
+    padding-left: 20px;
+    margin-left: none;
+    font-size: 18px;
+}
+
+main H2{
+    font-family: lato;
+    color: black;
+    background-color: #dbc2a4;
+    padding-left: 20px;
+    margin-left: none;
+    font-size: 18px;
+}
+
+title{
+    display: none;
+}
+
+#profil{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#profil img{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 40px #dbc2a4;
+}
+
+#profil img:hover{
+    cursor: zoom-in;
+}
+
+#stubborn{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #782221;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2c1d27;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#residence{
+    flex: 1 1 0;
+}
+
+#mail{
+    flex: 1 1 0;
+    text-align: center;
+}
+
+#phone_number{
+    flex: 1 1 0;
+    text-align: right;
+}
+
+address a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+#cv_body{
+    display: flex;
+    flex-direction: row;
+    padding: none;
+    margin: none;
+}
+#part_left{
+    color:white;
+    background-color: #782221;
+    width: 30%;
+    padding-left: 0px;
+    margin-left: 0;
+    padding-right: 30px;
+}
+
+#about p{
+    text-indent: 3em;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+#part_right{
+    border-right: solid black 2px;
+    width: 70%;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+#part_right H2{
+    border-left: solid #782221 3px;
+}
+
+span{
+    font-weight: bold
+}
+
+#footer{
+    background-color: #782221;
+    justify-content: center;
+    align-items: center;
+}
+
+#social_networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+}
+
+#update{
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+#social_networks img{
+    max-height: 40px;
+}
+
+#social_networks img:hover{
+    opacity: 10%;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#poste1:hover, #poste2:hover, #poste3:hover, #diploma1:hover, #diploma2:hover, #skills ul li:hover{
+    border-right: solid #782221 2px;
+}
